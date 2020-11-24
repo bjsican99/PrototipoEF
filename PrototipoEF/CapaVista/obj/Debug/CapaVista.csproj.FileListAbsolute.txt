@@ -49,3 +49,5 @@ D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\bin\Debug\CapaModeloRe
 D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\bin\Debug\CapaControladorReporteador.pdb
 D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\bin\Debug\CapaModeloNavegador.pdb
 D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\obj\Debug\CapaVista.frmCategoriaProducto.resources
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\obj\Debug\CapaVista.ReporteCategoriaProducto.resources
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\obj\Debug\CapaVista.frmBitacora.resources
