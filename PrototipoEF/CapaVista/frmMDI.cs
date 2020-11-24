@@ -1,5 +1,6 @@
 ﻿using CapaVista.Transaccion;
 using CapaVistaSeguridad;
+using CapaVistaSeguridad.Formularios.Mantenimientos;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -181,6 +182,34 @@ namespace CapaVista
             if (frm.ShowDialog() == DialogResult.OK)
             {
                 txtUsuario.Text = frm.usuario();
+            }
+        }
+
+        private void cambioDeContraseñaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //todo los usuarios pueden acceder a esta ventana para cambiar su contraseña.
+            frmCambioContraseña cambioContraseña = new frmCambioContraseña(txtUsuario.Text);
+            cambioContraseña.MdiParent = this;
+            cambioContraseña.Show();
+            bit.user(txtUsuario.Text);
+            bit.insert("Ingreso A Cambio de Contraseña", 11);
+        }
+
+        private void mantenimientoUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (seguridad.PermisosAcceso("2", txtUsuario.Text) == 1)
+            {
+                bit.user(txtUsuario.Text);
+                bit.insert("Ingreso A Mantenimiento Usuario", 2);
+                frmMantenimientoUsuario mantenimientoUsuario = new frmMantenimientoUsuario(txtUsuario.Text);
+                mantenimientoUsuario.MdiParent = this;
+                mantenimientoUsuario.Show();
+            }
+            else
+            {
+                bit.user(txtUsuario.Text);
+                bit.insert("Trato de ingresar a Mantenimiento Usuario", 2);
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
             }
         }
     }

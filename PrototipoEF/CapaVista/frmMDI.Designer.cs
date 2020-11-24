@@ -45,6 +45,7 @@
             this.reportesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.categoriaPrudcotToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ordenDeCompraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.contentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.indexToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,7 +54,6 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.ordenDeCompraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -141,7 +141,7 @@
             this.mantenimientoUsuarioToolStripMenuItem,
             this.reportesToolStripMenuItem1});
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(155, 24);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.optionsToolStripMenuItem.Text = "Seguridad";
             // 
             // cambioDeContraseñaToolStripMenuItem
@@ -149,12 +149,14 @@
             this.cambioDeContraseñaToolStripMenuItem.Name = "cambioDeContraseñaToolStripMenuItem";
             this.cambioDeContraseñaToolStripMenuItem.Size = new System.Drawing.Size(304, 24);
             this.cambioDeContraseñaToolStripMenuItem.Text = "0011 -  Cambio De Contraseña";
+            this.cambioDeContraseñaToolStripMenuItem.Click += new System.EventHandler(this.cambioDeContraseñaToolStripMenuItem_Click);
             // 
             // mantenimientoUsuarioToolStripMenuItem
             // 
             this.mantenimientoUsuarioToolStripMenuItem.Name = "mantenimientoUsuarioToolStripMenuItem";
             this.mantenimientoUsuarioToolStripMenuItem.Size = new System.Drawing.Size(304, 24);
             this.mantenimientoUsuarioToolStripMenuItem.Text = "0002 - Mantenimiento Usuario";
+            this.mantenimientoUsuarioToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoUsuarioToolStripMenuItem_Click);
             // 
             // reportesToolStripMenuItem1
             // 
@@ -178,6 +180,13 @@
             this.categoriaPrudcotToolStripMenuItem.Size = new System.Drawing.Size(222, 24);
             this.categoriaPrudcotToolStripMenuItem.Text = "Categoria Producto";
             this.categoriaPrudcotToolStripMenuItem.Click += new System.EventHandler(this.categoriaPrudcotToolStripMenuItem_Click);
+            // 
+            // ordenDeCompraToolStripMenuItem
+            // 
+            this.ordenDeCompraToolStripMenuItem.Name = "ordenDeCompraToolStripMenuItem";
+            this.ordenDeCompraToolStripMenuItem.Size = new System.Drawing.Size(222, 24);
+            this.ordenDeCompraToolStripMenuItem.Text = "Orden De Compra";
+            this.ordenDeCompraToolStripMenuItem.Click += new System.EventHandler(this.ordenDeCompraToolStripMenuItem_Click);
             // 
             // helpMenu
             // 
@@ -234,13 +243,6 @@
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(104, 26);
             this.txtUsuario.TabIndex = 2;
-            // 
-            // ordenDeCompraToolStripMenuItem
-            // 
-            this.ordenDeCompraToolStripMenuItem.Name = "ordenDeCompraToolStripMenuItem";
-            this.ordenDeCompraToolStripMenuItem.Size = new System.Drawing.Size(222, 24);
-            this.ordenDeCompraToolStripMenuItem.Text = "Orden De Compra";
-            this.ordenDeCompraToolStripMenuItem.Click += new System.EventHandler(this.ordenDeCompraToolStripMenuItem_Click);
             // 
             // frmMDI
             // 
