@@ -1,4 +1,5 @@
-﻿using CapaVistaSeguridad;
+﻿using CapaVista.Transaccion;
+using CapaVistaSeguridad;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -137,13 +138,50 @@ namespace CapaVista
         private void categoriaPrudcotToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ReporteCategoriaProducto ventana = new ReporteCategoriaProducto();
+            ventana.MdiParent = this;
             ventana.Show();
         }
 
         private void reportesToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             frmBitacora ventana = new frmBitacora();
+            ventana.MdiParent = this;
             ventana.Show();
+        }
+
+        private void procesoOrdenDeCompraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (seguridad.PermisosAcceso("3310", txtUsuario.Text) == 1)
+            {
+                bit.user(txtUsuario.Text);
+                bit.insert("Ingreso Generar Orden de Compra", 3310);
+                frmOrdenDeCompra perfil = new frmOrdenDeCompra(txtUsuario.Text);
+                perfil.MdiParent = this;
+                perfil.Show();
+            }
+            else
+            {
+                bit.user(txtUsuario.Text);
+                bit.insert("Trato de Ingresar a Generar Orden de Compra", 3310);
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
+        }
+
+        private void ordenDeCompraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReporteOrdenCompra ventana = new ReporteOrdenCompra();
+            ventana.MdiParent = this;
+            ventana.Show();
+        }
+
+        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            txtUsuario.Text = "";
+            frmLogin frm = new frmLogin();
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                txtUsuario.Text = frm.usuario();
+            }
         }
     }
 }

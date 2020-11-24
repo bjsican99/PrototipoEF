@@ -47,3 +47,7 @@ D:\Escritorio\Proyectos\PrototipoEF\EjecutablePrototipoEF\EjecutablePrototipoEF\
 D:\Escritorio\Proyectos\PrototipoEF\EjecutablePrototipoEF\EjecutablePrototipoEF\obj\Debug\EjecutablePrototipoEF.csproj.CopyComplete
 D:\Escritorio\Proyectos\PrototipoEF\EjecutablePrototipoEF\EjecutablePrototipoEF\obj\Debug\EjecutablePrototipoEF.exe
 D:\Escritorio\Proyectos\PrototipoEF\EjecutablePrototipoEF\EjecutablePrototipoEF\obj\Debug\EjecutablePrototipoEF.pdb
+D:\Escritorio\Proyectos\PrototipoEF\EjecutablePrototipoEF\EjecutablePrototipoEF\bin\Debug\CapaControlador.dll
+D:\Escritorio\Proyectos\PrototipoEF\EjecutablePrototipoEF\EjecutablePrototipoEF\bin\Debug\CapaModelo.dll
+D:\Escritorio\Proyectos\PrototipoEF\EjecutablePrototipoEF\EjecutablePrototipoEF\bin\Debug\CapaControlador.pdb
+D:\Escritorio\Proyectos\PrototipoEF\EjecutablePrototipoEF\EjecutablePrototipoEF\bin\Debug\CapaModelo.pdb
