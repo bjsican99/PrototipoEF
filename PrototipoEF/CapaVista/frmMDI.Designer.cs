@@ -51,6 +51,8 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.categoriaPrudcotToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -133,9 +135,10 @@
             // 
             this.optionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cambioDeContraseñaToolStripMenuItem,
-            this.mantenimientoUsuarioToolStripMenuItem});
+            this.mantenimientoUsuarioToolStripMenuItem,
+            this.reportesToolStripMenuItem1});
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(155, 24);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.optionsToolStripMenuItem.Text = "Seguridad";
             // 
             // cambioDeContraseñaToolStripMenuItem
@@ -152,6 +155,8 @@
             // 
             // reportesToolStripMenuItem
             // 
+            this.reportesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.categoriaPrudcotToolStripMenuItem});
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
             this.reportesToolStripMenuItem.Size = new System.Drawing.Size(87, 23);
             this.reportesToolStripMenuItem.Text = "Reportes";
@@ -212,6 +217,20 @@
             this.txtUsuario.Size = new System.Drawing.Size(104, 26);
             this.txtUsuario.TabIndex = 2;
             // 
+            // categoriaPrudcotToolStripMenuItem
+            // 
+            this.categoriaPrudcotToolStripMenuItem.Name = "categoriaPrudcotToolStripMenuItem";
+            this.categoriaPrudcotToolStripMenuItem.Size = new System.Drawing.Size(222, 24);
+            this.categoriaPrudcotToolStripMenuItem.Text = "Categoria Producto";
+            this.categoriaPrudcotToolStripMenuItem.Click += new System.EventHandler(this.categoriaPrudcotToolStripMenuItem_Click);
+            // 
+            // reportesToolStripMenuItem1
+            // 
+            this.reportesToolStripMenuItem1.Name = "reportesToolStripMenuItem1";
+            this.reportesToolStripMenuItem1.Size = new System.Drawing.Size(304, 24);
+            this.reportesToolStripMenuItem1.Text = "Bitacora";
+            this.reportesToolStripMenuItem1.Click += new System.EventHandler(this.reportesToolStripMenuItem1_Click);
+            // 
             // frmMDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -255,6 +274,8 @@
         private System.Windows.Forms.ToolStripMenuItem mantenimientoUsuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
         private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.ToolStripMenuItem categoriaPrudcotToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem1;
     }
 }
 

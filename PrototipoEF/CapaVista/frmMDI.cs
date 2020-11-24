@@ -133,5 +133,17 @@ namespace CapaVista
                 bit.insert("Trato de Ingresar a Mantenimiento Categoria Productos", 3302);
             }
         }
+
+        private void categoriaPrudcotToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReporteCategoriaProducto ventana = new ReporteCategoriaProducto();
+            ventana.Show();
+        }
+
+        private void reportesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmBitacora ventana = new frmBitacora();
+            ventana.Show();
+        }
     }
 }
