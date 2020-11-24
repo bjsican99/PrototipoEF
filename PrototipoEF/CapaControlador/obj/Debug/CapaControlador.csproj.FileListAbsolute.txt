@@ -1,0 +1,9 @@
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaControlador\bin\Debug\CapaControlador.dll
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaControlador\bin\Debug\CapaControlador.pdb
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaControlador\obj\Debug\CapaControlador.csprojAssemblyReference.cache
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaControlador\obj\Debug\CapaControlador.csproj.CoreCompileInputs.cache
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaControlador\obj\Debug\CapaControlador.dll
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaControlador\obj\Debug\CapaControlador.pdb
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaControlador\bin\Debug\CapaModelo.dll
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaControlador\bin\Debug\CapaModelo.pdb
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete

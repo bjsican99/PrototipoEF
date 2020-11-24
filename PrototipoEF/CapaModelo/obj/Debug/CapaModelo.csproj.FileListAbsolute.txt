@@ -1,0 +1,6 @@
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaModelo\bin\Debug\CapaModelo.dll
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaModelo\bin\Debug\CapaModelo.pdb
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaModelo\obj\Debug\CapaModelo.csprojAssemblyReference.cache
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaModelo\obj\Debug\CapaModelo.dll
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaModelo\obj\Debug\CapaModelo.pdb
