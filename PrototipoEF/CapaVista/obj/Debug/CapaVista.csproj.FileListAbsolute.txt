@@ -9,7 +9,6 @@ D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\bin\Debug\CapaControla
 D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\obj\Debug\CapaVista.csproj.CopyComplete
 D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\obj\Debug\CapaVista.csproj.GenerateResource.cache
 D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\obj\Debug\CapaVista.frmMDI.resources
-D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\obj\Debug\VISTAMRP.frmCategoriaProducto.resources
 D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\bin\Debug\CapaVistaNavegador.dll
 D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\bin\Debug\CapaVistaSeguridad.dll
 D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\bin\Debug\CapaModelo.dll
@@ -49,3 +48,4 @@ D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\bin\Debug\CapaModeloSe
 D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\bin\Debug\CapaModeloReporteador.pdb
 D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\bin\Debug\CapaControladorReporteador.pdb
 D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\bin\Debug\CapaModeloNavegador.pdb
+D:\Escritorio\Proyectos\PrototipoEF\PrototipoEF\CapaVista\obj\Debug\CapaVista.frmCategoriaProducto.resources
