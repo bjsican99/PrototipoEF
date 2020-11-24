@@ -207,7 +207,7 @@
             this.txtUsuario.BackColor = System.Drawing.Color.PaleTurquoise;
             this.txtUsuario.Enabled = false;
             this.txtUsuario.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(661, 1);
+            this.txtUsuario.Location = new System.Drawing.Point(1111, 1);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(104, 26);
             this.txtUsuario.TabIndex = 2;
@@ -222,7 +222,7 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip;
             this.Name = "frmMDI";
-            this.Text = "frmMDI";
+            this.Text = "Billy Jeshua Sican Matias 0901-17-16250";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmMDI_Load);
             this.menuStrip.ResumeLayout(false);
